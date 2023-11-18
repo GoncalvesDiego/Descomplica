@@ -19,16 +19,46 @@ p {
     text-align: right;
 }
 
-div {
-    width: 100px;
-    height: 100px;
-    background: red;
+.texto {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-style: italic;
+    text-decoration: underline wavy blueviolet;
+    letter-spacing: 10px;
+    text-shadow: 10px 10px 10px red;
 }
 
-.div {
-    background: orange;
+
+.app {
+    display: flex;
+    flex-direction: column;
+    background-color: mediumslateblue;
+    height: 100vh;
 }
 
-#div, #div2 {
-    background: blue;
+.content {
+    background-color: palevioletred;
+    flex-grow: 0.9;
+}
+
+.navbar {
+    display: flex;
+    background-color:darkkhaki;
+    justify-content: space-between;
+
+}
+
+.menu_button {
+    background-color: aqua;
+
+}
+
+.search_button {
+    background-color:chartreuse;
+
+}
+
+.logo {
+    background-color: orange;
+
 }
